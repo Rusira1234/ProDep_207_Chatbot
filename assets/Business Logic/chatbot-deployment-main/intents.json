@@ -1,0 +1,321 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "Negative",
+      "patterns": [
+        "adda davasa hari kammali",
+        "adda num honda davasak nemei",
+        "adda num maha mooda davasak"
+      ],
+      "responses": [
+        "Ahh ee ganna worry wenna eppa :) "
+      ]
+    },
+    {
+      "tag": "Positive",
+      "patterns": [
+        "adda davasa soak",
+        "adda hariyata winoda vunna",
+        "adda honda dawasak"
+      ],
+      "responses": [
+        "Hondai :) "
+      ]
+    },
+    {
+      "tag": "Neutral",
+      "patterns": [
+        "adda davasa ohhe gevuna",
+        "adda davase wenada wagema wada balan hitiya",
+        "avlak naha hondai"
+      ],
+      "responses": [
+        "Hmmm :) , Hondai :) "
+      ]
+    },
+    {
+      "tag": "positive response",
+      "patterns": [
+        "oww wada tika godak durata plan ekata anuwa wenava",
+        "plan ekke widihatama wada sidda vunna",
+        "oww adda davase wada katautu plan ekke widihatama wenavva"
+      ],
+      "responses": [
+        "Ahannath satutuiii,"
+      ]
+    },
+    {
+      "tag": "negative response",
+      "patterns": [
+        "naha adda num hitana taram wada kotasak kara ganna barri vunna",
+        "plan ekke widihata num wada tika kara ganna bari vunna",
+        "plan ekke dihatanum adda wadda tikka ivara kara ganna bari weii"
+      ],
+      "responses": [
+        "ahh ee ganna worry wenna eppa :) "
+      ]
+    },
+    {
+      "tag": "neutral response",
+      "patterns": [
+        "wadda tika plan ekata weii kiyala hitanava",
+        "matta hitenne ee wagge",
+        "plan ekatama nati vunath adda honda improvement ekuk ganna puluvan weii"
+      ],
+      "responses": [
+        "Hariiii :) "
+      ]
+    },
+    {
+      "tag": "the response - facebook",
+      "patterns": [
+        "1",
+        "2",
+        "3"
+      ],
+      "responses": [
+        "Hondaii :) "
+      ]
+    },
+    {
+      "tag": "the response - facebook (last option)",
+      "patterns": [
+        "4"
+      ],
+      "responses": [
+        "hondai :) facebook use kalle nati vunata kamak naha "
+      ]
+    },
+    {
+      "tag": "the response 2 - facebook (positive)",
+      "patterns": [
+        "jeewitheta motivation ekuk wenna posts dakkka",
+        "technology related content dakka",
+        "yaluwange updates dakka",
+        "hinna yanna jokes dakkka",
+        "nature ganna penanna videos dakka"
+      ],
+      "responses": [
+        "saa hondai nea :) "
+      ]
+    },
+    {
+      "tag": "the response 2 - facebook (negative)",
+      "patterns": [
+        "mello rahak nati posts wagayak dakka",
+        "yaluwo mavva anavashya posts walata mention karala tibba",
+        "political posts adda goddak dakke",
+        "minissunta mavva nomage yawanna comments dakka",
+        "eka eka vikara advertisments dakka"
+      ],
+      "responses": [
+        "Kanagathui ee wage posts dakkema labbema ganna :| "
+      ]
+    },
+    {
+      "tag": "the response 2 - facebook (neutral)",
+      "patterns": [
+        "matta etaram matakayak nahha monna wage posts da dakke kiyalla"
+      ],
+      "responses": [
+        "ahh kamak nahha oyata mataka naha kiyanne oyya echara care karalla naha :) "
+      ]
+    },
+    {
+      "tag": "the response 3 (positive)",
+      "patterns": [
+        "naha ehema deyak nahha",
+        "anne naha ehema wishsha deyak naha upset wenna",
+        "naha mun hondin"
+      ],
+      "responses": [
+        "Ahh ehenum kamak naha :) "
+      ]
+    },
+    {
+      "tag": "the response 3 (negative)",
+      "patterns": [
+        "ow mun upset ekenn inne",
+        "oww",
+        "ow",
+        "ow mun tikuk upset ekke inne"
+      ],
+      "responses": [
+        "Matta kiyanna oyya upset ekken inna hetuwa :)"
+      ]
+    },
+    {
+      "tag": "the response for upset reason",
+      "patterns": [
+        "mun giya sem ekke module ekuk repeat vunna ee ganna upset eken inne",
+        "adda petrol gahanna gihin sahenna wella poolimme inna vunna",
+        "adda magge girl friend echarra hondata maat ekka katta karanne naha"
+      ],
+      "responses": [
+        "Stoothi maa hata eyya pawaseema ganna :) ",
+        "worry wenna eppa hama demma hondin sidda weii :) ",
+        "Oya onnavata wadiya ee ganna worry wenna epppa :) ",
+        "wishwasa karanna mavva, oya hondin idiiweii :) "
+      ]
+    },
+    {
+      "tag": "the twitter response 1",
+      "patterns": [
+        "payyak vitara",
+        "paya 2kuk 3 k vitara",
+        "paya 3 nata wadda"
+      ],
+      "responses": [
+        "Hondai :) "
+      ]
+    },
+    {
+      "tag": "the twitter response 1 (last option)",
+      "patterns": [
+        "twitter use karre nahha",
+        "twitter baavitha karre nahha"
+      ],
+      "responses": [
+        "Hmm :)",
+        "Ahh ekata kamak nahha :)"
+      ]
+    },
+    {
+      "tag": "the twitter response 2 (positive)",
+      "patterns": [
+        "sportsman lage tweets dakka",
+        "musical event walla posts dakka",
+        "aluthen appu tec gadgets ganna tweets dakka",
+        "scientifical findings ganna penanna tweets dakka",
+        "Motivational quotes dakka"
+      ],
+      "responses": [
+        "oya godak deval evvagen igenna ganna atti :) "
+      ]
+    },
+    {
+      "tag": "the twitter response 2 (negative)",
+      "patterns": [
+        "political tweets",
+        "meaningless sacastic tweets dakka",
+        "aluthen hoyagat bahanaka ledda rogga ganna tweets dakka",
+        "theroom ganna bari languages walin tiyena tweets dakka",
+        "minissu private and public properties destroy karanna videos penna tweets dakka"
+      ],
+      "responses": [
+        "matta kanna gaatui ee wage tweets oyata dakeemata labeemma :( "
+      ]
+    },
+    {
+      "tag": "the twitter response 2 (neutral)",
+      "patterns": [
+        "matta echarra mataka naha monna wagge tweets da dakke kiyalla"
+      ],
+      "responses": [
+        "ahh ekata kamak nahha :) "
+      ]
+    },
+    {
+      "tag": "the response about the day(positive)",
+      "patterns": [
+        "adda davasa ganna mamma satis mokada kivvoth mage important wadda wagayak adda karra gatta",
+        "adda davassse mun aluth deval godak igenna gatta",
+        "adda mun hituwata wadda goddak hondata gym workouts karra ganna puluvan vunna",
+        "adda davassa mun etamath sathutin gatta kalla",
+        "magge targets walata langa wenna onne step ekuk issarahata yanna puluvan vunna"
+      ],
+      "responses": [
+        "hari satuthi :), \n adda davasse matt ekka sanvvadayata sambandha vunata Thank You ",
+        "hari sooak mun wish karanava oyage hama davasama mea wagge wenna kiyalla :), \n adda davasse matt ekka sanvvadayata sambandha vunata Thank You ",
+        "ahannath assai :), \n adda davasse matt ekka sanvvadayata sambandha vunata Thank You "
+      ]
+    },
+    {
+      "tag": "the response about the day(negative)",
+      "patterns": [
+        "adda davasa ganna poddukvath mun satis wenne naha",
+        "adda davasssa hituwata wadda ikmanata ivara vunna ekka nissa godak wadda itiri vunna",
+        "adda davasse magge gym workouts tikawath hariyata karra ganna barri vunna",
+        "adda davassa godda welavak current tibbe naha ekka nisa hariyata wadak karra ganna bari vunna",
+        "adda davasse godduk badda avva ekka nissa mage targets walata yanna poddukwath adda udav vunne nahha"
+      ],
+      "responses": [
+        "mata kanagathui ee ganna :| namuth worry wenna eppa tamath oyya parakku naha :), \n adda davasse matt ekka sanvvadayata sambandha vunata Thank You ",
+        "ahh worry wenna eppa :) oyata tamath puluvan adda davasa watina widihata spend karanna :), \n adda davasse matt ekka sanvvadayata sambandha vunata Thank You ",
+        "ee ganna worry wenna eppa, oyata adda davasse itiri kotassa satutin gatta karanna puluvan :), \n adda davasse matt ekka sanvvadayata sambandha vunata Thank You "
+      ]
+    },
+    {
+      "tag": "the response about the day(neutral)",
+      "patterns": [
+        "adda davasa avlak nativa gevunna"
+      ],
+      "responses": [
+        "matat ee wageemai :), \n adda davasse matt ekka sanvvadayata sambandha vunata Thank You, "
+      ]
+    },
+    {
+      "tag": "the response about the plan",
+      "patterns": [
+        "ehemata loku plan ekuk nahha",
+        "adda davasse plan ekuk naha",
+        "plan ekuk naha"
+      ],
+      "responses": [
+        "ehema baha, minissu vunamma appi plan ekakata wadda karanna onne yaluwee :)"
+      ]
+    },
+    {
+      "tag": "the nahha response",
+      "patterns": [
+        "naha",
+        "nahaa"
+      ],
+      "responses": [
+        "Hondai :)"
+      ]
+    },
+    {
+      "tag": "the last response",
+      "patterns": [
+        "obatat subba davasak",
+        "subba davasak"
+      ],
+      "responses": [
+        "GoodBye"
+      ]
+    }
+  ]
+}
+
